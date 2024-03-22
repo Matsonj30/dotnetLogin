@@ -1,3 +1,5 @@
+using MySqlConnector;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,3 +25,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+builder.Services.AddMySqlDataSource(builder.Configuration.GetConnectionString("Default")!);

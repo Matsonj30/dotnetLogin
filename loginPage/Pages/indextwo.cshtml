@@ -1,7 +1,12 @@
 ﻿@page
-@model MyApp.Namespace.indextwoModel
+@model MyApp.Namespace.indextwoModel //this is used in the C# file to associate with the class
+
 @{
+    Layout = null;
 }
+
+@*We are currently using the _Layout.cshtml as our basic layout, we could make 
+our own with headers/navigation using @layout layoutFilename.cshtml or change it to null ^ *@
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,4 +30,14 @@
 
 <body>
     <h1>HELLO</h1>
+
+    <form method="post"  class="indexForm">
+        @* Make sure the input names match the request form *@
+        <input  placeholder="E-mail Address" type="email" name="email"/> 
+        <input  placeholder="Password" type="password" name="password"/>
+          
+        
+        <button type="submit" class="coldBorder">Submit Form</button>  
+    </form>
+
 </body>

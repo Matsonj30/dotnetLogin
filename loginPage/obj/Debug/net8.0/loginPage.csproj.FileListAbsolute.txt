@@ -28,3 +28,8 @@ D:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\refint\loginP
 D:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\loginPage.pdb
 D:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\loginPage.genruntimeconfig.cache
 D:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\ref\loginPage.dll
+d:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\loginPage.sourcelink.json
+d:\Programming\Repositories\dotnetLogin\loginPage\bin\Debug\net8.0\MySqlConnector.dll
+d:\Programming\Repositories\dotnetLogin\loginPage\bin\Debug\net8.0\MySqlConnector.DependencyInjection.dll
+d:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\loginPage.csproj.AssemblyReference.cache
+d:\Programming\Repositories\dotnetLogin\loginPage\obj\Debug\net8.0\loginPage.csproj.Up2Date
