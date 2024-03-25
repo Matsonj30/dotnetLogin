@@ -44,7 +44,6 @@ public class connectToDB{
                 query.Parameters.AddWithValue("@username", username); //we do it this way to prevent injection, as this function knows how to treat any input
                 query.Parameters.AddWithValue("@password", password);
 
-             //   try{
                     int rowsAffected = query.ExecuteNonQuery();
                     if(rowsAffected > 0){
                         Console.WriteLine("Account Created Successfully");
@@ -54,11 +53,7 @@ public class connectToDB{
                         Console.WriteLine("Account Creation Failed");
                         return false;
                     }
-              //  }
-                // catch (Exception ex){
-                //     Console.WriteLine("Error creating account: " + ex.Message);
-                //     return false;
-                // }
+              
       
               
 

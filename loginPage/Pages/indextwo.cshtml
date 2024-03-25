@@ -21,8 +21,8 @@ our own with headers/navigation using @layout layoutFilename.cshtml or change it
     <meta property="og:type" content="website">
     <meta property="og:title" content="Alberta Based Web Design + Development">
     <link rel="icon" href="images/icon.webp">
-    <link rel="stylesheet" href="../styles/styles.css">
-   
+    <link rel="stylesheet" href="/css/style.css"> 
+    @* You make the path relative to the wwwroot, not the html file or the ACTUAL root iteslf *@
 
     
     <title>Alberta Based Web Design + Development</title>
@@ -31,6 +31,7 @@ our own with headers/navigation using @layout layoutFilename.cshtml or change it
 <body>
     <h1>HELLO</h1>
 
+    <div class=createAccountForm>
     <form method="post"  class="indexForm">
         @* Make sure the input names match the request form *@
         <input  placeholder="E-mail Address" type="email" name="email"/> 
@@ -39,5 +40,7 @@ our own with headers/navigation using @layout layoutFilename.cshtml or change it
         
         <button type="submit" class="coldBorder">Submit Form</button>  
     </form>
+    </div>
+
 
 </body>

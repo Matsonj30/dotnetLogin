@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\loginPage.bundle.scp.css"
     },
     {
+      "Id": "d:\\Programming\\Repositories\\dotnetLogin\\loginPage\\wwwroot\\css\\_index.scss",
+      "PackagePath": "staticwebassets\\css\\_index.scss"
+    },
+    {
       "Id": "d:\\Programming\\Repositories\\dotnetLogin\\loginPage\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "d:\\Programming\\Repositories\\dotnetLogin\\loginPage\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "d:\\Programming\\Repositories\\dotnetLogin\\loginPage\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "d:\\Programming\\Repositories\\dotnetLogin\\loginPage\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
     },
     {
       "Id": "d:\\Programming\\Repositories\\dotnetLogin\\loginPage\\wwwroot\\favicon.ico",

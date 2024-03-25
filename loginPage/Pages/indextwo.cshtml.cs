@@ -54,7 +54,7 @@ namespace MyApp.Namespace //this is not relevant to the model, only the class in
                 byte [] hashedBytes = sha256.ComputeHash(inputBytes);
 
                 string hashedValue = BitConverter.ToString(hashedBytes).Replace("-","").ToLower();
-                //this pops out 32 hexadecimal characters, which are ofc 2 bytes each = 265 bits
+                //this pops out 32 hexadecimal characters, which are ofc 2 bytes each = 256 bits
                 //replace dashes with blanks, then lowercase everything
                 return hashedValue;
             }
